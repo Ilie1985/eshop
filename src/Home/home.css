@@ -1,0 +1,12 @@
+.home_container {
+  position: relative;
+}
+
+.home_image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -60%);
+  width: 100%;
+  height: auto;
+}

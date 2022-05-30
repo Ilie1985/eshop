@@ -34,9 +34,9 @@ const Header = () => {
           <span className="nav_itemLineOne">Your</span>
           <span className="nav_itemLineTwo">Shop</span>
         </div>
-        <div className="nav_item">
-          <ShoppingBasketIcon className="nav_itemBasket"/>
-          <span className="nav_basketCount">0</span>
+        <div className="nav_itemBasket">
+          <ShoppingBasketIcon />
+          <span className=" nav_itemLineTwo nav_basketCount">0</span>
         </div>
       </div>
       {/* =========================================================== */}
