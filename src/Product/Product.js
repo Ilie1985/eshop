@@ -1,6 +1,11 @@
 import "../Product/product.css";
 
 const Product = ({ id, title, price, rating, image }) => {
+  
+  
+  
+  
+  
   return (
     <div className="product">
       <div className="product_info">
@@ -18,7 +23,7 @@ const Product = ({ id, title, price, rating, image }) => {
         </div>
       </div>
       <img src={image} alt="" />
-      <button>Add to Basket</button>
+      <button >Add to Basket</button>
     </div>
   );
 };
